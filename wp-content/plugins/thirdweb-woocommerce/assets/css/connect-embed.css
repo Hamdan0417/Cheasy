@@ -1,0 +1,25 @@
+.thirdweb-connect-embed {
+    min-height: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(8, 12, 24, 0.95), rgba(18, 26, 40, 0.95));
+    padding: 12px;
+    color: #f1f5ff;
+}
+
+.thirdweb-connect-embed button {
+    border-radius: 999px !important;
+}
+
+.thirdweb-payment-status {
+    background: #f3f6ff;
+    border: 1px solid #d0dcff;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+#thirdweb-checkout-modal button {
+    font-family: inherit;
+}
