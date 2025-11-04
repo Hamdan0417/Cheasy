@@ -1,0 +1,14 @@
+
+# تجاهل ملفات الكاش والنسخ الاحتياطي
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# تجاهل الملفات المرفوعة (الصور، الخ) - (اختياري، لكن يفضل)
+# إذا تجاهلتها، لن يتم نسخها لـ GitHub، وهذا يخفف حجم المستودع
+wp-content/uploads/
+
+# ملفات النظام
+.htaccess
+robots.txt
+error_log

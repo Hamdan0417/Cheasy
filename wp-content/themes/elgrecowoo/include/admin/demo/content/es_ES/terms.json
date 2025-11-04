@@ -1,0 +1,108 @@
+{
+  "product_cat": [
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 71,
+      "name": "Categoría 1",
+      "slug": "categoria-1",
+      "term_group": 0,
+      "term_taxonomy_id": 71,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 72,
+      "name": "Categoría 2",
+      "slug": "categoria-2",
+      "term_group": 0,
+      "term_taxonomy_id": 72,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 73,
+      "name": "Categoría 3",
+      "slug": "categoria-3",
+      "term_group": 0,
+      "term_taxonomy_id": 73,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 74,
+      "name": "Categoría 4",
+      "slug": "categoria-4",
+      "term_group": 0,
+      "term_taxonomy_id": 74,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 75,
+      "name": "Categoría 5",
+      "slug": "categoria-5",
+      "term_group": 0,
+      "term_taxonomy_id": 75,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 76,
+      "name": "Categoría 6",
+      "slug": "categoria-6",
+      "term_group": 0,
+      "term_taxonomy_id": 76,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 77,
+      "name": "Categoría 7",
+      "slug": "categoria-7",
+      "term_group": 0,
+      "term_taxonomy_id": 77,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    },
+    {
+      "type_title": "Woocommerce Categories",
+      "term_id": 78,
+      "name": "Categoría 8",
+      "slug": "categoria-8",
+      "term_group": 0,
+      "term_taxonomy_id": 78,
+      "taxonomy": "product_cat",
+      "description": "",
+      "parent": 0,
+      "count": 0,
+      "filter": "raw"
+    }
+  ]
+}

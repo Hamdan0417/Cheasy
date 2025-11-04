@@ -1,0 +1,1 @@
+!function(e){"use strict";e(document).on("wc-password-strength-added",(function(n){var t=e(".nicelabel .woocommerce-password-strength").parent(),r=t.find("input[type=password]"),o=t.find("label");r.after(o)}))}(jQuery);

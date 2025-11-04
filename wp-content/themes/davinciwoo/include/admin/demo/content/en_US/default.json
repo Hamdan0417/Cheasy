@@ -1,0 +1,581 @@
+{
+  "wpcf7_contact_form": [
+    {
+      "type_title": "Contact Forms",
+      "post_id": 100,
+      "post_title": "Contact form nicelabel",
+      "post_status": "publish",
+      "post_name": "contact-form-nicelabel",
+      "post_content": "[text* your-name id:your-name placeholder \"Name*\"]\r\n[email* your-email id:your-email placeholder \"Email*\"]\r\n[textarea* your-message placeholder \"Message*\"]\r\n[submit class:btn class:btn-secondary primary \"Send Message\"]\n1\n##sitename## \"[your-subject]\"\n[your-name] <info@##sitedomain##>\nsupport@##sitedomain##\nFrom: [your-name] <[your-email]>\r\nSubject: [your-subject]\r\n\r\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)\nReply-To: [your-email]\n\n\n\n\n##sitename## \"[your-subject]\"\n##sitename## <info@##sitedomain##>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)\nReply-To: support@##sitedomain##\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.\nThe date format is incorrect.\nThe date is before the earliest one allowed.\nThe date is after the latest one allowed.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe file is too big.\nThere was an error uploading the file.\nThe number format is invalid.\nThe number is smaller than the minimum allowed.\nThe number is larger than the maximum allowed.\nThe answer to the quiz is incorrect.\nYour entered code is incorrect.\nThe e-mail address entered is invalid.\nThe URL is invalid.\nThe telephone number is invalid.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteutl##\/?post_type=wpcf7_contact_form&p=100",
+      "post_mime_type": "",
+      "meta": {
+        "_form": [
+          "[text* your-name id:your-name placeholder \"Name*\"]\n[email* your-email id:your-email placeholder \"Email*\"]\n[textarea* your-message placeholder \"Message*\"]\n[submit class:btn class:btn-secondary primary \"Send Message\"]"
+        ],
+        "_mail": [
+          {"active":true,"subject":"##sitename## \"[your-subject]\"","sender":"[your-name] <info@##sitedomain##>","recipient":"support@##sitedomain##","body":"From: [your-name] <[your-email]>\r\nSubject: [your-subject]\r\n\r\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)","additional_headers":"Reply-To: [your-email]","attachments":"","use_html":false,"exclude_blank":false}
+        ],
+        "_mail_2": [
+          {"active":false,"subject":"##sitename## \"[your-subject]\"","sender":"##sitename## <info@##sitedomain##>","recipient":"[your-email]","body":"Message Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)","additional_headers":"Reply-To: [your-email]","attachments":"","use_html":false,"exclude_blank":false}
+        ],
+        "_messages": [
+          {"mail_sent_ok":"Thank you for your message. It has been sent.","mail_sent_ng":"There was an error trying to send your message. Please try again later.","validation_error":"One or more fields have an error. Please check and try again.","spam":"There was an error trying to send your message. Please try again later.","accept_terms":"You must accept the terms and conditions before sending your message.","invalid_required":"The field is required.","invalid_too_long":"The field is too long.","invalid_too_short":"The field is too short.","invalid_date":"The date format is incorrect.","date_too_early":"The date is before the earliest one allowed.","date_too_late":"The date is after the latest one allowed.","upload_failed":"There was an unknown error uploading the file.","upload_file_type_invalid":"You are not allowed to upload files of this type.","upload_file_too_large":"The file is too big.","upload_failed_php_error":"There was an error uploading the file.","invalid_number":"The number format is invalid.","number_too_small":"The number is smaller than the minimum allowed.","number_too_large":"The number is larger than the maximum allowed.","quiz_answer_not_correct":"The answer to the quiz is incorrect.","captcha_not_match":"Your entered code is incorrect.","invalid_email":"The e-mail address entered is invalid.","invalid_url":"The URL is invalid.","invalid_tel":"The telephone number is invalid."}
+        ],
+        "_additional_settings": [
+          ""
+        ],
+        "_locale": [
+          "en_US"
+        ]
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    }
+  ],
+  "page": [
+    {
+      "type_title": "Pages",
+      "post_id" : 110,
+      "post_title": "Home",
+      "post_status": "publish",
+      "post_name": "home",
+      "post_content": "<h2>Leonardo da Vinci<\/h2>\r\nLeonardo di ser Piero da Vinci, more commonly Leonardo da Vinci or simply Leonardo (15 April 1452 – 2 May 1519), was an Italian polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology, and architecture, and is widely considered one of the greatest painters of all time. Sometimes credited with the inventions of the parachute, helicopter and tank, he epitomised the Renaissance humanist ideal.\r\n\r\nMany historians and scholars regard Leonardo as the prime exemplar of the Universal Genius or Renaissance Man, an individual of unquenchable curiosity and feverishly inventive imagination. According to art historian Helen Gardner, the scope and depth of his interests were without precedent in recorded history, and his mind and personality seem to us superhuman, while the man himself mysterious and remote. Marco Rosci notes that while there is much speculation regarding his life and personality, his view of the world was logical rather than mysterious, and that the empirical methods he employed were unorthodox for his time.\r\n\r\nBorn out of wedlock to a notary, Piero da Vinci, and a peasant woman, Caterina, in Vinci in the region of Florence, Leonardo was educated in the studio of the renowned Florentine painter Andrea del Verrocchio. Much of his earlier working life was spent in the service of Ludovico il Moro in Milan. He later worked in Rome, Bologna and Venice, and he spent his last years in France at the home awarded to him by Francis I of France.\r\n\r\nLeonardo was, and is, renowned primarily as a painter. Among his works, the Mona Lisa is the most famous and most parodied portrait and The Last Supper the most reproduced religious painting of all time. Leonardos drawing of the Vitruvian Man is also regarded as a cultural icon, being reproduced on items as varied as the euro coin, textbooks, and T-shirts. Perhaps fifteen of his paintings have survived. Nevertheless, these few works, together with his notebooks, which contain drawings, scientific diagrams, and his thoughts on the nature of painting, compose a contribution to later generations of artists rivalled only by that of his contemporary, Michelangelo.",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 1,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=110",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-front.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id" : 120,
+      "post_title": "About Us",
+      "post_status": "publish",
+      "post_name": "about-us",
+      "post_content": "<p style=\"text-align: center;\">Welcome to <a href=\"#siteurl#\">##sitename##<\/a>. We are a team of enthusiastic developers and entrepreneurs who decided to convert their common experience into this web store. We hope you’ll like it as much as we do and have a great shopping experience here. Our prime goal is to create a shop in which you can easily find whatever product you need.<\/p>",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 2,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=120",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-about-us.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id" : 130,
+      "post_title": "Blog",
+      "post_status": "publish",
+      "post_name": "blog",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 3,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=130",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 140,
+      "post_title": "Shop",
+      "post_status": "publish",
+      "post_name": "shop",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 4,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=140",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 150,
+      "post_title": "Cart",
+      "post_status": "publish",
+      "post_name": "cart",
+      "post_content": "[woocommerce_cart]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 5,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=150",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 160,
+      "post_title": "Checkout",
+      "post_status": "publish",
+      "post_name": "checkout",
+      "post_content": "[woocommerce_checkout]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 6,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=160",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 170,
+      "post_title": "Contact us",
+      "post_status": "publish",
+      "post_name": "contact-us",
+      "post_content": "<p style=\"text-align: center; font-size:16px;\">Have any questions or need to get more information about the product?\r\nEither way, you’re in the right spot.<\/p>\r\n<p style=\"text-align: center;\"><a href=\"mailto:support@##sitedomain##\">support@##sitedomain##<\/a><\/p>\r\n[adswst_social_icons id=\"47\" facebook_link=\"https:\/\/www.facebook.com\/AliDropship-Support-1016423725132477\/\" instagram_link=\"https:\/\/www.instagram.com\/alidropshipcom\/\" twitter_link=\"https:\/\/twitter.com\/AliDropship\" pinterest_link=\"https:\/\/www.pinterest.ru\/alidropship\/\" youtube_link=\"https:\/\/www.youtube.com\/channel\/UCO8h6PHW7OC6zP6pHi1NvKQ\" icon_color=\"#999999\" icon_color_hover=\"#FFFFFF\" icon_color_background=\"transparent\" icon_color_background_hover=\"#666666\" ][contact-form-7 id=\"100\" title=\"Contact form nicelabel\"]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 7,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=170",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 180,
+      "post_title": "Frequently asked questions",
+      "post_status": "publish",
+      "post_name": "frequently-asked-questions",
+      "post_content": "<h3>How to search products?<\/h3>\r\n<p>Search for products by entering the product name or keyword into the <em>Search Bar<\/em> at the top of any page. Try to enter a general description. The more keywords you use, the less products you will get in the results page. When you find a product you’re interested in, simply click the product name or the product image for more details.<\/p>\r\n<h3>How are shipping costs calculated?<\/h3>\r\n<p>Shipping costs are calculated based on shipping method (air, sea or land) and product weight \/ volume. Different shipping companies have different rates, so it’s best to check and compare which is most affordable and economical. For more details on how shipping costs are calculated, please <u><a href=\"\/contact-us\/\">contact us<\/a><\/u> directly.<\/p>\r\n<h3>What is Buyer Protection?<\/h3>\r\n<p>Buyer Protection is a set of guarantees that enables buyers to shop with confidence on our website.<\/p>\r\n<p>You are protected when:<\/p>\r\n<ul>\r\n \t<li>The item you ordered did not arrive within the time promised by the seller.<\/li>\r\n \t<li>The item you received was not as described.<\/li>\r\n \t<li>The item you received that was assured to be genuine was fake.<\/li>\r\n<\/ul>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 8,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=180",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 190,
+      "post_title": "My Account",
+      "post_status": "publish",
+      "post_name": "my-account",
+      "post_content": "[woocommerce_my_account]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 9,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/my-account/",
+      "post_mime_type": "",
+      "meta": {},
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 200,
+      "post_title": "Payment methods",
+      "post_status": "publish",
+      "post_name": "payment-methods",
+      "post_content": "<p>Payment methods include PayPal and Credit cards.<\/p>\r\n<p>PayPal is a safer, easier way to send and receive money online. When you select PayPal as the payment method, you will be linked to the PayPal site where you can make payment.<\/p>\r\n<p>PayPal can be used to purchase items by Credit Card (Visa, MasterCard, Discover, and American Express), Debit Card, or E-check (i.e. using your regular Bank Account).<\/p>\r\n<ol>\r\n<li>After viewing your items on your shopping cart page, you can click and check out with PayPal. Then you will leave our site and enter PayPal’s website.<\/li>\r\n<li> You can sign in to your PayPal account, or you can create a new one if you haven’t got one.<\/li>\r\n<li> You can use the PayPal as you want according to the on-screen instructions.<\/li>\r\n<\/ol>\r\n<p>Usually, PayPal e-check will take 3-5 business days to be confirmed by PayPal.<\/p>\r\n<p>The reasons why we suggest you use PayPal:<\/p>\r\n<ul>\r\n<li>Payment is traceable. By using your PayPal account, you can trace the status of your payment.<\/li>\r\n<li>When you make payment for your order, you don’t need to use your credit card online (you can transfer directly from your bank account).<\/li>\r\n<li>When you use your credit card through PayPal, nobody will see your credit card number, which will minimize the risk of unauthorized use.<\/li>\r\n<\/ul>\r\n\r\n",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 10,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=200",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 210,
+      "post_title": "Privacy Policy",
+      "post_status": "publish",
+      "post_name": "privacy-policy",
+      "post_content": "<p>##sitedomain## is compliant with The General Data Protection Regulation (GDPR) (EU) 2016\/679.<\/p>\r\n\r\n<p>It means that we are open about our methods of tracking and use of the visitors’ personal data, and you can freely check what exactly we’re doing to it.<\/p>\r\n\r\n<p>At ##sitedomain##, we collect:<\/p>\r\n<ul>\r\n \t<li>Your name and surname<\/li>\r\n \t<li>Your email address<\/li>\r\n \t<li>Your physical address<\/li>\r\n \t<li>Your phone number<\/li>\r\n \t<li>The data about the browser and device you use to view the store<\/li>\r\n \t<li>The way you navigate the store<\/li>\r\n<\/ul>\r\n<p>We gather your contact details because they are necessary to accept and process your orders, and to make sure you’ve got your packages.<\/p>\r\n\r\n<p>We gather the details of your technical equipment and on-site behavior in order to make our store more user-friendly, and to personalize our store services for you (for example, to automatically switch the store to the mobile version.)<\/p>\r\n\r\n<p>Our store works with outer companies that help us provide the best service for you, and these third parties also use some of the personal details you’re leaving. We limit the data they can access to only what is necessary for them to perform their obligations.<\/p>\r\n<ul>\r\n \t<li>Payment services use your credit card number, your name and surname to verify and process your payments for our products<\/li>\r\n \t<li>Our manufacturers and stock keepers use the data of your order contents to assemble the necessary package for you<\/li>\r\n \t<li>Postal services use your first name, last name, and physical address to arrange the product delivery for you<\/li>\r\n \t<li>Mass mailing services use your email address to send you emails (if you have subscribed for them)<\/li>\r\n<\/ul>\r\n<p>If you keep browsing our webstore after reading this Privacy Policy, you give us the consent to use your personal details for the purposes explained above.<\/p>\r\n\r\n<p>If you don’t agree to these terms, please leave the website.<\/p>\r\n\r\n<p>You can email us at support@##sitedomain## and ask:<\/p>\r\n<ul>\r\n \t<li>To receive the copy of your personal details we have collected<\/li>\r\n \t<li>To delete your personal details from our system<\/li>\r\n \t<li>To withdraw your consent (if you previously agreed to provide us with the data, but then changed your mind)<\/li>\r\n<\/ul>\r\n<p>We are doing our best to guarantee the security of your personal details while keeping and using them.<\/p>\r\n\r\n<p>Thank you for your cooperation!<\/p>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 11,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=210",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 220,
+      "post_title": "Refunds & Returns Policy",
+      "post_status": "publish",
+      "post_name": "returns-policy",
+      "post_content": "<h3>Order cancellation<\/h3>\r\n\r\n<p>All orders can be cancelled until they are shipped. If your order has been paid and you need to change or cancel it, you must contact us within 12 hours. Once the packaging and shipping process has started, it can no longer be cancelled.<\/p>\r\n\r\n<h3>Refunds<\/h3>\r\n\r\n<p>Your satisfaction is our #1 priority. Therefore, you can request a refund or reshipment for ordered products if:<\/p>\r\n\r\n<ul>\r\n    <li>you do not receive them within the guaranteed time (45 days not including 2-5 day processing)<\/li>\r\n    <li>you receive the wrong item<\/li>\r\n    <li>you do not want the product you have received (but you must return the item at your expense and the item must be unused)<\/li>\r\n<\/ul>\r\n\r\n<p>We do <b>not<\/b> issue the refund if:<\/p>\r\n\r\n<ul>\r\n    <li>your order does not arrive due to factors within your control (e.g. providing the wrong shipping address)<\/li>\r\n    <li>your order does not arrive due to exceptional circumstances outside our control (e.g. not cleared by customs, delayed by a natural disaster).<\/li>\r\n<\/ul>\r\n\r\n<p class=\"info\">\r\n    *You can submit refund requests within 15 days after the guaranteed period for delivery (45 days) has expired. You can do it by sending a message on <a href=\"##siteurl##\/contact-us\/\">Contact Us<\/a> page.\r\n<\/p>\r\n\r\n",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 12,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=220",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 230,
+      "post_title": "Shipping & delivery",
+      "post_status": "publish",
+      "post_name": "shipping-delivery",
+      "post_content": "<div class=\"shipping-page-content-with-icons\">\r\n\r\n    <div class=\"shipping-page-item\">\r\n\r\n        <div class=\"shipping-page-item__image\">\r\n\r\n            [get-icon icon=\"shipping-icon-car\"]\r\n\r\n        <\/div>\r\n\r\n        <div class=\"shipping-page-item__text\">\r\n\r\n            <h3>FREE SHIPPING<\/h3>\r\n            <p>We are glad to bring our customers great value and service. That’s why we provide free shipping from our warehouses in China by ePacket or EMS and in USA by USPS.<\/p>\r\n\r\n        <\/div>\r\n\r\n    <\/div>\r\n\r\n    <div class=\"shipping-page-item\">\r\n\r\n        <div class=\"shipping-page-item__image\">\r\n\r\n            [get-icon icon=\"shipping-icon-world\"]\r\n\r\n        <\/div>\r\n\r\n        <div class=\"shipping-page-item__text\">\r\n\r\n            <h3>SHIPPING TO OVER 200 COUNTRIES<\/h3>\r\n            <p>We are proud to offer international shipping services. However, there are some locations we are unable to ship to. If you happen to be from one of those countries we will contact you.<\/p>\r\n\r\n        <\/div>\r\n\r\n    <\/div>\r\n\r\n    <div class=\"shipping-page-item\">\r\n\r\n        <div class=\"shipping-page-item__image\">\r\n\r\n            [get-icon icon=\"shipping-icon-box\"]\r\n\r\n        <\/div>\r\n\r\n        <div class=\"shipping-page-item__text\">\r\n\r\n            <h3>CUSTOMS<\/h3>\r\n            <p>We are not responsible for any custom fees once the items have shipped. By purchasing our products, you consent that one or more packages may be shipped to you and may get custom fees when they arrive to your country.<\/p>\r\n\r\n        <\/div>\r\n\r\n    <\/div>\r\n\r\n    <div class=\"shipping-page-item\">\r\n\r\n        <div class=\"shipping-page-item__image\">\r\n\r\n            [get-icon icon=\"shipping-icon-calendar\"]\r\n\r\n        <\/div>\r\n\r\n        <div class=\"shipping-page-item__text\">\r\n\r\n            <h3>SHIPPING TIME<\/h3>\r\n            <p>Shipping time varies by location. These are our estimates:<\/p>\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-striped\">\r\n                    <thead>\r\n                    <tr>\r\n                        <th>Location<\/th>\r\n                        <th>*Estimated Shipping Time<\/th>\r\n                    <\/tr>\r\n                    <\/thead>\r\n                    <tr>\r\n                        <td>United States<\/td>\r\n                        <td>10-30 Business days<\/td>\r\n                    <\/tr>\r\n                    <tr>\r\n                        <td>Canada, Europe<\/td>\r\n                        <td>10-30 Business days<\/td>\r\n                    <\/tr>\r\n                    <tr>\r\n                        <td>Australia, New Zealand<\/td>\r\n                        <td>10-30 Business days<\/td>\r\n                    <\/tr>\r\n                    <tr>\r\n                        <td>Mexico, Central America, South America<\/td>\r\n                        <td>15-30 Business days<\/td>\r\n                    <\/tr>\r\n                <\/table>\r\n                <div class=\"info-no-italic\">Max delivery time - 45 business days.<\/div>\r\n                <span class=\"info\">*This doesn’t include our 2-5 day processing time.<\/span>\r\n            <\/div>\r\n\r\n        <\/div>\r\n\r\n    <\/div>\r\n\r\n    <div class=\"shipping-page-item\">\r\n\r\n        <div class=\"shipping-page-item__image\">\r\n\r\n            [get-icon icon=\"shipping-icon-tracking\"]\r\n\r\n        <\/div>\r\n\r\n        <div class=\"shipping-page-item__text\">\r\n\r\n            <h3>TRACKING INFORMATION<\/h3>\r\n            <p>You will receive an email with a tracking number once your order is shipped but sometimes due to free shipping tracking is not available. For logistical reasons, items in the same purchase may be sent in separate packages even if you’ve specified combined shipping.<\/p>\r\n            <p>If you have any other questions, please contact us and we will do our best to help you out.<\/p>\r\n\r\n        <\/div>\r\n\r\n    <\/div>\r\n\r\n<\/div>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 13,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=230",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 240,
+      "post_title": "Terms and conditions",
+      "post_status": "publish",
+      "post_name": "terms-and-conditions",
+      "post_content": "We provide services to you subject to the notices, terms, and conditions set forth in this agreement. Besides, you will obey the rules, guidelines, policies, terms, and conditions applicable to such services before you use them. We reserve the right to change this site and these terms and conditions at any time.\r\n\r\nBefore proceeding, please read this agreement because accessing, browsing, or otherwise using the Site indicates your agreement to all the terms and conditions in this agreement.\r\n\r\nYou shall not upload, distribute, or otherwise publish through this Site any Content, information, or other material that (a) includes any bugs, viruses, worms, trap doors, Trojan horses, or other harmful code or properties; (b) is libelous, threatening, defamatory, obscene, indecent, pornographic, discriminatory, or could give rise to any civil or criminal liability under the laws of the U.S. or the laws of any other country that may apply; or (c)violates or infringes upon the copyrights, patents, trademarks, service marks, trade secrets, or other proprietary rights of any person. <a href=\"##siteurl##\">##sitedomain##<\/a> may give you an account identification and password to enable you to access and use certain portions of this Site. Each time you use a password or identification, you are deemed to be authorized to access and use the Site in a manner consistent with the terms and conditions of this agreement, and <a href=\"##siteurl##\">##sitedomain##<\/a> has no obligation to investigate the source of any such access or use of the Site.\r\n\r\nBy accepting these Terms of Use through your use of the Site, you certify that you are 18 years of age or older. If you are under 18 years old please use this Site only under the supervision of a parent or legal guardian. Subject to the terms and conditions of this agreement, hereby grants you a limited, revocable, non-transferable, and non-exclusive license to access and use the Site by displaying it on your Internet browser only for the purpose of shopping and not for any commercial use or use on behalf of any third party, except as explicitly permitted by <a href=\"##siteurl##\">##sitedomain##<\/a> in advance. Any violation of this Agreement shall result in the immediate revocation of the license granted in this paragraph without notice to you.\r\n\r\nUnless explicitly permitted by our company in advance, all materials, including images, text, illustrations, designs, icons, photographs, programs, music clips or downloads, video clips and written and other materials that are part of this Site (collectively, the “Contents”) are intended solely for personal, non-commercial use. You may not make any commercial use of any of the information provided on the Site or make any use of the Site for the benefit of another business. We reserve the right to refuse service, terminate accounts, and\/or cancel orders in its discretion, including, without limitation, if we believe that customer conduct violates applicable laws or is harmful to our interests. You may not reproduce, distribute, display, sell, lease, transmit, create derivative works from, translate, modify, reverse-engineer, disassemble, decompile, or otherwise exploit this Site or any portion of it unless expressly permitted by our company in writing.\r\n\r\nYou will be solely responsible for all access to and use of this site by anyone using the password and identification originally assigned to you whether or not such access to and use of this site is actually authorized by you, including without limitation, all communications and transmissions and all obligations (including without limitation financial obligations) incurred through such access or use. You are solely responsible for protecting the security and confidentiality of the password and identification assigned to you. You shall immediately notify  <a href=\"##siteurl##\">##sitedomain##<\/a> of any unauthorized use of your password or identification or any other breach or threatened breach of this Site’s security.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 14,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=240",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 250,
+      "post_title": "Track your order",
+      "post_status": "publish",
+      "post_name": "track-your-order",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 15,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=250",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-track-your-order.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 260,
+      "post_title": "Wishlist",
+      "post_status": "publish",
+      "post_name": "wishlist",
+      "post_content": "[yith_wcwl_wishlist]",
+      "post_excerpt": "",
+      "post_parent": 190,
+      "menu_order": 16,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/my-account\/wishlist",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    }
+  ]
+}

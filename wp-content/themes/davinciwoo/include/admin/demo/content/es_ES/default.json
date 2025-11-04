@@ -1,0 +1,581 @@
+{
+  "wpcf7_contact_form": [
+    {
+      "type_title": "Contact Forms",
+      "post_id": 100,
+      "post_title": "Formulario de contacto",
+      "post_status": "publish",
+      "post_name": "contact-form-nicelabel",
+      "post_content": "[text* your-name id:your-name placeholder \"Tu nombre*\"]\n[email* your-email id:your-email placeholder \"Tu correo*\"]\n[textarea* your-message placeholder \"Tu mensaje*\"]\n[submit class:btn class:btn-secondary primary \"Enviar\"]\n1\nMy WordPress Website \"[your-subject]\"\n[your-name] <info@##sitedomain##>\nsupport@##sitedomain##\nFrom: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nEste mensaje se ha enviado desde un formulario de contacto en My WordPress Website (##sitedomain##)\nReply-To: [your-email]\n\n\n\n\nMy WordPress Website \"[your-subject]\"\nMy WordPress Website <info@##sitedomain##>\n[your-email]\nMessage Body:\n[your-message]\n\n-- \nThis e-mail was sent from a contact form on My WordPress Website (##sitedomain##)\nReply-To: [your-email]\n\n\n\nGracias por tu mensaje. Ha sido enviado.\nHubo un error intentando enviar tu mensaje. Por favor inténtalo de nuevo más tarde.\nUno o más campos tienen un error. Por favor revisa e inténtalo de nuevo.\nHubo un error intentando enviar tu mensaje. Por favor inténtalo de nuevo más tarde.\nDebes aceptar los términos y condiciones antes de enviar tu mensaje.\nEl campo es obligatorio.\nEl campo es demasiado largo.\nEl campo es demasiado corto.\nEl formato de fecha es incorrecto.\nLa fecha es anterior a la más temprana permitida.\nLa fecha es posterior a la más tardía permitida.\nHubo un error desconocido subiendo el archivo.\nNo tienes permisos para subir archivos de este tipo.\nEl archivo es demasiado grande.\nSe ha producido un error subiendo la imagen\nEl formato de número no es válido.\nEl número es menor que el mínimo permitido.\nEl número es mayor que el máximo permitido.\nLa respuesta al cuestionario no es correcta.\nEl código introducido es incorrecto.\nLa dirección de correo electrónico que has introducido no es válida.\nLa URL no es válida.\nEl número de teléfono no es válido.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteutl##\/?post_type=wpcf7_contact_form&p=100",
+      "post_mime_type": "",
+      "meta": {
+        "_form": [
+          "[text* your-name id:your-name placeholder \"Tu nombre*\"]\n[email* your-email id:your-email placeholder \"Tu correo electrónico*\"]\n[textarea* your-message placeholder \"Tu mensaje*\"]\n[submit class:btn class:btn-secondary primary \"Enviar\"]"
+        ],
+        "_mail": [
+          {"active":true,"subject":"##sitename## \"[your-subject]\"","sender":"[your-name] <info@##sitedomain##>","recipient":"support@##sitedomain##","body":"From: [your-name] <[your-email]>\r\nSubject: [your-subject]\r\n\r\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)","additional_headers":"Reply-To: [your-email]","attachments":"","use_html":false,"exclude_blank":false}
+        ],
+        "_mail_2": [
+          {"active":false,"subject":"##sitename## \"[your-subject]\"","sender":"##sitename## <info@##sitedomain##>","recipient":"[your-email]","body":"Message Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on ##sitename## (##siteurl##)","additional_headers":"Reply-To: [your-email]","attachments":"","use_html":false,"exclude_blank":false}
+        ],
+        "_messages": [
+          {"mail_sent_ok":"Gracias por tu mensaje. Ha sido enviado.","mail_sent_ng":"Hubo un error intentando enviar tu mensaje. Por favor inténtalo de nuevo más tarde.","validation_error":"Uno o más campos tienen un error. Por favor revisa e inténtalo de nuevo.","spam":"Hubo un error intentando enviar tu mensaje. Por favor inténtalo de nuevo más tarde.","accept_terms":"Debes aceptar los términos y condiciones antes de enviar tu mensaje.","invalid_required":"El campo es obligatorio.","invalid_too_long":"El campo es demasiado largo.","invalid_too_short":"El campo es demasiado corto.","invalid_date":"El formato de fecha es incorrecto.","date_too_early":"La fecha es anterior a la más temprana permitida.","date_too_late":"La fecha es posterior a la más tardía permitida.","upload_failed":"Hubo un error desconocido subiendo el archivo.","upload_file_type_invalid":"No tienes permisos para subir archivos de este tipo.","upload_file_too_large":"El archivo es demasiado grande.","upload_failed_php_error":"Se ha producido un error subiendo la imagen.","invalid_number":"El formato de número no es válido.","number_too_small":"El número es menor que el mínimo permitido.","number_too_large":"El número es mayor que el máximo permitido.","quiz_answer_not_correct":"La respuesta al cuestionario no es correcta.","captcha_not_match":"El código introducido es incorrecto.","invalid_email":"La dirección de correo electrónico que has introducido no es válida.","invalid_url":"La URL no es válida.","invalid_tel":"El número de teléfono no es válido."}
+        ],
+        "_additional_settings": [
+          ""
+        ],
+        "_locale": [
+          "es_ES"
+        ]
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    }
+  ],
+  "page": [
+    {
+      "type_title": "Pages",
+      "post_id" : 110,
+      "post_title": "Home",
+      "post_status": "publish",
+      "post_name": "home",
+      "post_content": "<h2>Leonardo da Vinci</h2>\nLeonardo da Vinci (Leonardo di ser Piero da Vinci) (Vinci, 15 de abril de 1452\u200B-Amboise, 2 de mayo de 1519) fue un polímata florentino del Renacimiento italiano. Fue a la vez pintor, anatomista, arquitecto, paleontólogo,\u200B artista, botánico, científico, escritor, escultor, filósofo, ingeniero, inventor, músico, poeta y urbanista. Murió acompañado de Francesco Melzi, a quien legó sus proyectos, diseños y pinturas. Tras pasar su infancia en su ciudad natal, Leonardo estudió con el pintor florentino Andrea de Verrocchio. Sus primeros trabajos de importancia fueron creados en Milán al servicio del duque Ludovico Sforza. Trabajó a continuación en Roma, Bolonia y Venecia, y pasó los últimos años de su vida en Francia, por invitación del rey Francisco I.\n\nFrecuentemente descrito como un arquetipo y símbolo del hombre del Renacimiento, genio universal, además de filósofo humanista cuya curiosidad infinita solo puede ser equiparable a su capacidad inventiva,\u200B Leonardo da Vinci es considerado uno de los más grandes pintores de todos los tiempos y, probablemente, es la persona con el mayor número de talentos en múltiples disciplinas que jamás ha existido. Como ingeniero e inventor, Leonardo desarrolló ideas muy adelantadas a su tiempo, tales como el helicóptero, el carro de combate, el submarino y el automóvil. Muy pocos de sus proyectos llegaron a construirse (entre ellos la máquina para medir el límite elástico de un cable), puesto que la mayoría no eran realizables durante esa época.\u200B Como científico, Leonardo da Vinci hizo progresar mucho el conocimiento en las áreas de anatomía, la ingeniería civil, la óptica y la hidrodinámica.\n\nSu asociación histórica más famosa es la pintura. Dos de sus obras más conocidas, La Gioconda y La Última Cena, copiadas y parodiadas en varias ocasiones, al igual que su dibujo del Hombre de Vitruvio, que llegaría a ser retomado en numerosos trabajos derivados. No obstante, únicamente se conocen alrededor de 20 obras suyas, debido principalmente a sus constantes (y a veces desastrosos) experimentos con nuevas técnicas y a su inconstancia crónica. Este reducido número de creaciones, junto con sus cuadernos con dibujos, diagramas científicos y reflexiones sobre la naturaleza de la pintura, constituyen un legado para las sucesivas generaciones de artistas.",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 1,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=110",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-front.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id" : 120,
+      "post_title": "Quiénes Somos",
+      "post_status": "publish",
+      "post_name": "quienes-somos",
+      "post_content": "<p style=\"text-align: center;\">Bienvenido a <a href=\"##siteurl##\">##sitedomain##</a>. Somos un equipo de desarrolladores y empresarios entusiastas que decidieron convertir su experiencia común en esta tienda web. Esperamos que te guste tanto como a nosotros y tengas una excelente experiencia al compra aquí. Nuestro principal objetivo es crear una tienda en la que puedas encontrar fácilmente cualquier producto que necesites.</p>",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 2,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=120",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-about-us.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id" : 130,
+      "post_title": "Blog",
+      "post_status": "publish",
+      "post_name": "blog",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": "",
+      "menu_order": 3,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=130",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 140,
+      "post_title": "Tienda",
+      "post_status": "publish",
+      "post_name": "tienda",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 4,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=140",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 150,
+      "post_title": "Tu Carrito de Compras",
+      "post_status": "publish",
+      "post_name": "tu-carrito-de-compras",
+      "post_content": "[woocommerce_cart]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 5,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=150",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 160,
+      "post_title": "Pago",
+      "post_status": "publish",
+      "post_name": "pago",
+      "post_content": "[woocommerce_checkout]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 6,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=160",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 170,
+      "post_title": "Contactar Con Nosotros",
+      "post_status": "publish",
+      "post_name": "contactar-con-nosotros",
+      "post_content": "<p style=\"text-align: center; font-size:16px;\">¿Tienes alguna pregunta o necesitas obtener más información sobre el producto?\r\nDe cualquier manera, estás en el lugar correcto.<\/p>\r\n<p style=\"text-align: center;\"><a href=\"mailto:support@##sitedomain##\">support@##sitedomain##<\/a><\/p>\r\n[adswst_social_icons id=\"47\" facebook_link=\"https:\/\/www.facebook.com\/AliDropship-Support-1016423725132477\/\" instagram_link=\"https:\/\/www.instagram.com\/alidropshipcom\/\" twitter_link=\"https:\/\/twitter.com\/AliDropship\" pinterest_link=\"https:\/\/www.pinterest.ru\/alidropship\/\" youtube_link=\"https:\/\/www.youtube.com\/channel\/UCO8h6PHW7OC6zP6pHi1NvKQ\" icon_color=\"#999999\" icon_color_hover=\"#FFFFFF\" icon_color_background=\"transparent\" icon_color_background_hover=\"#666666\" ][contact-form-7 id=\"100\" title=\"Formulario de contacto\"]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 7,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=170",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 180,
+      "post_title": "Preguntas Frecuentes",
+      "post_status": "publish",
+      "post_name": "preguntas-frecuentes",
+      "post_content": "<h3>¿Cómo buscar productos?</h3>\nBusque productos ingresando el nombre del producto o la palabra clave en el <em>Barra de búsqueda</em> en la parte superior de cualquier página. Intenta escribir una descripción general. Cuantas más palabras clave utilices, menos productos obtendrás en la página de resultados. Cuando encuentres un producto que te interese, simplemente haz clic en el nombre del producto o en su imagen ver para más detalles.\n<h3>¿Cómo se calculan los costos de envío?</h3>\nLos costos de envío se calculan según el método de envío (aéreo, marítimo o terrestre) y el peso / volumen del producto. Las diferentes compañías de envío tienen diferentes tarifas, por lo que es mejor verificar y comparar cuál es la más económica y económica. Para más detalles sobre cómo se calculan los gastos de envío, por favor <u><a href=\"/contactar-con-nosotros/\">contáctanos</a></u> directamente.\n<h3>¿Qué es la protección del comprador?</h3>\nLa Protección del Comprador es un conjunto de garantías que permite a los compradores comprar con confianza en nuestro sitio.\n\nEstás protegido cuando:\n<ul>\n \t<li>El artículo que ordenaste no llegó dentro del tiempo prometido por el vendedor.</li>\n \t<li>El artículo que recibiste no es como se describe.</li>\n \t<li>El artículo que recibió que le aseguraban ser genuino era falso.</li>\n</ul>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 8,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=180",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 190,
+      "post_title": "Mi Cuenta",
+      "post_status": "publish",
+      "post_name": "mi-cuenta",
+      "post_content": "[woocommerce_my_account]",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 9,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/my-account/",
+      "post_mime_type": "",
+      "meta": {},
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 200,
+      "post_title": "Métodos de Pago",
+      "post_status": "publish",
+      "post_name": "metodos-de-pago",
+      "post_content": "Los métodos de pago incluyen PayPal y tarjetas de crédito.\n\nPayPal es una forma más segura y fácil de enviar y recibir dinero en línea. Cuando selecciones PayPal como método de pago, se te vinculará al sitio de PayPal donde podrás realizar el pago.\n\nPayPal te puedes utilizar para comprar artículos con tarjeta de crédito (Visa, MasterCard, Discover y American Express), tarjeta de débito o cheque electrónico (es decir, utilizando tu cuenta bancaria habitual).\n<ol>\n \t<li>Después de ver tus artículos en la página de tu carro de compras, puedes hacer clic y pagar con PayPal. Entonces saldrás de nuestro sitio y entrarás en la web de PayPal.</li>\n \t<li>Puedes iniciar sesión en tu cuenta de PayPal, o puedes crear una nueva si no tienes una.</li>\n \t<li>Puedes usar PayPal como desees de acuerdo con las instrucciones en pantalla.</li>\n</ol>\nPor lo general, el cheque electrónico de PayPal demorará entre 3 y 5 días hábiles para ser confirmado por PayPal.\n\nLas razones por las que te sugerimos que utilices PayPal:\n<ul>\n \t<li>El pago es rastreable. Al utilizar su cuenta de PayPal, puede rastrear el estado de tu pago.</li>\n \t<li>Cuando realizas el pago de tu pedido, no tienes que utilizar tu tarjeta de crédito en línea (puedes transferir directamente desde tu cuenta bancaria).</li>\n \t<li>Cuando uses tu tarjeta de crédito a través de PayPal, nadie verá tu número de tarjeta de crédito, lo que minimizarás el riesgo de uso no autorizado.</li>\n</ul>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 10,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=200",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 210,
+      "post_title": "Política de Privacidad",
+      "post_status": "publish",
+      "post_name": "politica-de-privacidad",
+      "post_content": "<p><a href=\"##siteurl##\">##sitedomain##</a> cumple con el Reglamento general de protección de datos (GDPR) (UE) 2016/679.\n\nSignifica que estamos abiertos con respecto a nuestros métodos de seguimiento y uso de los datos personales de los visitantes, y puedes verificar libremente qué es exactamente lo que le estamos haciendo.\n\nA <a href=\"##siteurl##\">##sitedomain##</a>, recopilamos:\n<ul>\n \t<li>Tu nombre y apellido</li>\n \t<li>Tu correo electrónico</li>\n \t<li>Tu dirección física</li>\n \t<li>Tu número de teléfono</li>\n \t<li>Los datos sobre el navegador y el dispositivo que utilizas para ver la tienda</li>\n \t<li>La forma de navegar por la tienda</li>\n</ul>\nNos reunimos tus datos de contacto porque son necesarios para aceptar y procesar tus pedidos, y para asegurarte de que tienes tus paquetes.\n\nNos reunimos los detalles de tu equipo técnico y el comportamiento del sitio para hacer que nuestra tienda sea más fácil de usar, y para personalizar nuestros servicios de la tienda para ti (por ejemplo, para cambiar automáticamente la tienda a la versión móvil).\n\nNuestra tienda trabaja con compañías externas que nos ayudan a brindar el mejor servicio para ti, y estos terceros también usan algunos de los datos personales que estás dejando. Limitamos los datos a los que solo pueden acceder para cumplir con tus obligaciones.\n<ul>\n \t<li>Los servicios de pago usan tu número de tarjeta de crédito, tu nombre y apellido para verificar y procesar tus pagos por nuestros productos</li>\n \t<li>Nuestros fabricantes y almacenistas utilizan los datos de tu pedido para armar el paquete necesario para ti</li>\n \t<li>Los servicios postales usan tu nombre, apellido y dirección física para organizar la entrega del producto para ti</li>\n \t<li>Los servicios de correo masivo usan tu dirección de correo electrónico para enviarte correos electrónicos (si te has suscrito a ellos)</li>\n</ul>\nSi continúas navegando en nuestra tienda web luego de leer esta Política de Privacidad, nos das tu consentimiento para utilizar tus datos personales para los fines explicados anteriormente.\n\nSi no aceptas estos términos, abandona el sitio web.\n\nPuedes enviarnos un correo electrónico en contacto@##sitedomain## y pregunta:\n<ul>\n \t<li>Para recibir la copia de tus datos personales, hemos recopilado</li>\n \t<li>Para eliminar tus datos personales de nuestro sistema</li>\n \t<li>Para retirar tu consentimiento (si previamente acordaste proporcionarnos los datos, pero luego cambiaste de opinión)</li>\n</ul>\nHacemos todo lo posible para garantizar la seguridad de tus datos personales mientras los guardamos y usamos.\n\n¡Gracias por tu cooperación!<\/p>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 11,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=210",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 220,
+      "post_title": "Política de Reembolsos y Devoluciones",
+      "post_status": "publish",
+      "post_name": "Politica-de-reembolsos-y-devoluciones",
+      "post_content": "<h3>Cancelación de orden</h3>\nTodos los pedidos pueden ser cancelados hasta que sean enviados. Si tu pedido ha sido pagado y necesita cambiarlo o cancelarlo, debes comunicarte con nosotros dentro de las 12 horas. Una vez que el proceso de empaquetado y envío ha comenzado, ya no se puede cancelar.\n<h3>Reembolsos</h3>\nTu satisfacción es nuestra prioridad #1. Por lo tanto, puedes solicitar un reembolso o un reenvío para los productos solicitados si:\n<ul>\n \t<li>no los recibes dentro del tiempo garantizado (45 días sin incluir el procesamiento de 2 a 5 días)</li>\n \t<li>recibes el articulo equivocado</li>\n \t<li>no deseas el producto que has recibido (pero debes devolver el artículo a su cargo y el artículo debe estar sin usar)</li>\n</ul>\nHacemos <b>no</b> emitir el reembolso si:\n<ul>\n \t<li>tu pedido no llega debido a factores bajo tu control (por ejemplo, proporcionar la dirección de envío incorrecta)</li>\n \t<li>tu pedido no llega debido a circunstancias excepcionales fuera de nuestro control (por ejemplo, no ha sido aprobado por la aduana, retrasado por un desastre natural).</li>\n</ul>\n<p class=\"info\">*Puedes enviar las solicitudes de reembolso dentro de los 15 días posteriores a la expiración del período garantizado de entrega (45 días). Puedes hacerlo enviando un mensaje a <a href=\"https://##sitedomain##/contactar-con-nosotros/\">Contacto</a> página.</p>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 12,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=220",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 230,
+      "post_title": "Envío y Entrega",
+      "post_status": "publish",
+      "post_name": "envío-y-entrega",
+      "post_content": "<div class=\"shipping-page-content-with-icons\">\n<div class=\"shipping-page-item\">\n<div class=\"shipping-page-item__image\">\n\n[get-icon icon=\"shipping-icon-car\"]\n\n</div>\n<div class=\"shipping-page-item__text\">\n<h3>ENVÍO GRATIS</h3>\nEstamos encantados de traer a nuestros clientes un gran valor y servicio. Es por eso que ofrecemos envíos gratuitos desde nuestros almacenes en China por ePacket o EMS y en EE. UU. Por USPS.\n\n</div>\n</div>\n<div class=\"shipping-page-item\">\n<div class=\"shipping-page-item__image\">\n\n[get-icon icon=\"shipping-icon-world\"]\n\n</div>\n<div class=\"shipping-page-item__text\">\n<h3>ENVÍO A MÁS DE 200 PAÍSES</h3>\nEstamos orgullosos de ofrecer servicios de envío internacional. Sin embargo, hay algunos lugares a los que no podemos enviar. Si eres de uno de esos países, nos pondremos en contacto contigo.\n\n</div>\n</div>\n<div class=\"shipping-page-item\">\n<div class=\"shipping-page-item__image\">\n\n[get-icon icon=\"shipping-icon-box\"]\n\n</div>\n<div class=\"shipping-page-item__text\">\n<h3>ADUANA</h3>\nNo somos responsables de ninguna tarifa de aduana una vez que los artículos hayan sido enviados. Al comprar nuestros productos, aceptas que se te envíen uno o más paquetes y puede ser sujeto a tarifas de aduana cuando llegan a tu país.\n\n</div>\n</div>\n<div class=\"shipping-page-item\">\n<div class=\"shipping-page-item__image\">\n\n[get-icon icon=\"shipping-icon-calendar\"]\n\n</div>\n<div class=\"shipping-page-item__text\">\n<h3>TIEMPO DE ENVÍO</h3>\nEl tiempo de envío varía según la ubicación. Estas son nuestras estimaciones:\n<div class=\"table-responsive\">\n<table class=\"table table-striped\">\n<thead>\n<tr>\n<th>Ubicación</th>\n<th>*Tiempo estimado de envío</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Estados Unidos</td>\n<td>10-30 Días hábiles</td>\n</tr>\n<tr>\n<td>Canadá, Europa</td>\n<td>10-30 Días hábiles</td>\n</tr>\n<tr>\n<td>Australia, Nueva Zelanda</td>\n<td>10-30 Días hábiles</td>\n</tr>\n<tr>\n<td>América Central y del Sur</td>\n<td>15-30 Días hábiles</td>\n</tr>\n<tr>\n<td>Asia</td>\n<td>10-20 Días hábiles</td>\n</tr>\n<tr>\n<td>Africa</td>\n<td>15-45 Días hábiles</td>\n</tr>\n</tbody>\n</table>\n<div class=\"info-no-italic\">Plazo de entrega máximo – 45 días hábiles.</div>\n<span class=\"info\">*Esto no incluye nuestro tiempo de procesamiento de 2 a 5 días.</span>\n\n</div>\n</div>\n</div>\n<div class=\"shipping-page-item\">\n<div class=\"shipping-page-item__image\">\n\n[get-icon icon=\"shipping-icon-tracking\"]\n\n</div>\n<div class=\"shipping-page-item__text\">\n<h3>Información de seguimiento</h3>\nRecibirás un correo electrónico con un número de seguimiento una vez que se envíe tu pedido, pero a veces, debido al envío gratuito, no estará disponible. Por razones logísticas, los artículos en la misma compra pueden enviarse en paquetes separados incluso si has especificado el envío combinado.\n\nSi tienes alguna otra pregunta, comunícate con nosotros y haremos todo lo posible para ayudarte.\n\n</div>\n</div>\n</div>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 13,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=230",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 240,
+      "post_title": "Términos y Condiciones",
+      "post_status": "publish",
+      "post_name": "terminos-y-condiciones",
+      "post_content": "Te brindamos servicios sujetos a los avisos, términos y condiciones establecidos en este acuerdo. Además, obedecerás las reglas, pautas, políticas, términos y condiciones aplicables a dichos servicios antes de utilizarlos. Nos reservamos el derecho de cambiar este sitio y estos términos y condiciones en cualquier momento.\n\nAntes de continuar, lee este acuerdo porque el acceso, la navegación o el uso del Sitio indica que estás de acuerdo con todos los términos y condiciones de este acuerdo.\n\nNo debes cargar, distribuir ni publicar de otro modo a través de este Sitio ningún Contenido, información u otro material que (a) incluya errores, virus, gusanos, trampas, troyanos u otros códigos o propiedades dañinos; (b) es difamatorio, amenazante, difamatorio, obsceno, indecente, pornográfico, discriminatorio, o podría dar lugar a cualquier responsabilidad civil o penal según las leyes de los EE. UU. o las leyes de cualquier otro país que pueda aplicarse; o (c) viola o infringe los derechos de autor, patentes, marcas registradas, marcas de servicio, secretos comerciales u otros derechos de propiedad de cualquier persona. <a href=\"##siteurl##\">##sitedomain##</a> puedes darte una identificación de cuenta y una contraseña para permitirle acceder y usar ciertas partes de este Sitio. Cada vez que uses una contraseña o identificación, te considerarás que tienes autorización para acceder y utilizar el Sitio de manera consistente con los términos y condiciones de este acuerdo, y <a href=\"##siteurl##\">##sitedomain##</a> no tienes obligación de investigar la fuente de dicho acceso o uso del Sitio.\n\nAl aceptar estos Términos de uso a través de tu uso del Sitio, certificas que tienes 18 años de edad o más. Si tienes menos de 18 años de edad, utiliza este sitio solo bajo la supervisión de un padre o tutor legal. Sujeto a los términos y condiciones de este acuerdo, por el presente te otorgamos una licencia limitada, revocable, no transferible y no exclusiva para acceder y usar el Sitio al mostrarlo en su navegador de Internet solo con el fin de realizar compras y no para ningún otro. uso comercial o uso en nombre de un tercero, excepto como explícitamente permitido por <a href=\"##siteurl##\">##sitedomain##</a> por adelantado. Cualquier violación de este Acuerdo dará lugar a la revocación inmediata de la licencia otorgada en este párrafo sin previo aviso.\n\nA menos que nuestra compañía lo permita de forma explícita por adelantado, todos los materiales, incluyendo imágenes, textos, ilustraciones, diseños, íconos, fotografías, programas, clips de música o descargas, videoclips y materiales escritos y otros que forman parte de este Sitio (colectivamente, el ” Los contenidos ”) están destinados únicamente para uso personal, no comercial. No puedes hacer ningún uso comercial de ninguna de la información proporcionada en el Sitio ni hacer ningún uso del Sitio para el beneficio de otra empresa. Nos reservamos el derecho de rechazar el servicio, cancelar las cuentas y / o cancelar pedidos a su discreción, incluyendo, sin limitación, si creemos que la conducta del cliente viola las leyes aplicables o es perjudicial para nuestros intereses. No puede reproducir, distribuir, mostrar, vender, arrendar, transmitir, crear trabajos derivados de, traducir, modificar, realizar ingeniería inversa, desensamblar, descompilar.\n\nSerás el único responsable del acceso y uso de este sitio por cualquier persona que use la contraseña y la identificación que le asignaron originalmente, ya sea que hayas autorizado o no dicho acceso y uso de este sitio, incluyendo, entre otros, todas las comunicaciones y transmisiones. y todas las obligaciones (incluidas, entre otras, las obligaciones financieras) contraídas a través de dicho acceso o uso. Eres el único responsable de proteger la seguridad y confidencialidad de la contraseña y la identificación asignada a ti. Notificarás inmediatamente <a href=\"##siteurl##\">##sitedomain##</a> de cualquier uso no autorizado de su contraseña o identificación o cualquier otra violación o amenaza de violación de la seguridad de este Sitio.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 14,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=240",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-semi-narrow.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 250,
+      "post_title": "Rastrear Tu Orden",
+      "post_status": "publish",
+      "post_name": "rastrear-tu-orden",
+      "post_content": "",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 15,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/?page_id=250",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "page-templates\/page-track-your-order.php"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 260,
+      "post_title": "Lista de Deseos",
+      "post_status": "publish",
+      "post_name": "lista-de-deseos",
+      "post_content": "[yith_wcwl_wishlist]",
+      "post_excerpt": "",
+      "post_parent": 190,
+      "menu_order": 16,
+      "post_date": "2019-01-11 13:53:04",
+      "post_date_gmt": "2019-01-11 13:53:04",
+      "guid": "##siteurl##\/my-account\/wishlist",
+      "post_mime_type": "",
+      "meta": {
+        "_wp_page_template": "default"
+      },
+      "terms": {
+        "category": [],
+        "post_tag": [],
+        "nav_menu": [],
+        "link_category": [],
+        "post_format": [],
+        "block_categories": [],
+        "product_type": [],
+        "product_cat": [],
+        "product_tag": [],
+        "product_shipping_class": [],
+        "pa_color": [],
+        "featured_item_category": [],
+        "featured_item_tag": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "adswst_facebook_likebox_widget":{
+    "2":{
+      "title":"",
+      "fb_link":"https:\/\/www.facebook.com\/alidropship\/"
+    },
+    "_multiwidget":1
+  },
+  "adswst_instagram_widget":{
+    "2":{
+      "title":"",
+      "title_inner":"Síguenos En Instagram",
+      "username":"@alidropship",
+      "number":"6",
+      "size":"thumbnail",
+      "target":"_blank"
+    },
+    "_multiwidget":1
+  },
+  "custom_html":{
+    "2":{
+      "title":"CONTACTO",
+      "content":"<p>\r\n<i class=\"icon-phone\"><\/i> (888) 888 88 88<br \/>\r\n<i class=\"icon-mail\"><\/i> support@##sitedomain##\r\n<\/p>\r\n<p>\r\n101 California Street, Suite 2710,<br \/>\r\nSan Francisco, CA 94111\r\n<\/p>"
+    },
+    "_multiwidget":1
+  },
+  "nav_menu":{
+    "2":{
+      "title":"INFORMACIÓN DE LA COMPAÑÍA",
+      "nav_menu":180
+    },
+    "3":{
+      "title":"INFORMACIÓN DE COMPRA",
+      "nav_menu":190
+    },
+    "4":{
+      "title":"SERVICIO AL CLIENTE",
+      "nav_menu":200
+    },
+    "_multiwidget":1
+  },
+  "adswst_social_icons_widget":{
+    "2":{
+      "title":"SÍGUENOS",
+      "facebook_link":"https:\/\/www.facebook.com\/AliDropship-Support-1016423725132477\/",
+      "instagram_link":"https:\/\/www.instagram.com\/alidropshipcom\/",
+      "twitter_link":"https:\/\/twitter.com\/AliDropship",
+      "pinterest_link":"https:\/\/www.pinterest.ru\/alidropship\/",
+      "youtube_link":"https:\/\/www.youtube.com\/channel\/UCO8h6PHW7OC6zP6pHi1NvKQ",
+      "icon_color":"#FFFFFF",
+      "icon_color_hover":"#FFFFFF",
+      "icon_color_background":"#333333",
+      "icon_color_background_hover":"#626262",
+      "icon_font_size":"14",
+      "padding":"5",
+      "border_radius":"2"
+    },
+    "3":{
+      "title":"",
+      "facebook_link":"https:\/\/www.facebook.com\/AliDropship-Support-1016423725132477\/",
+      "instagram_link":"https:\/\/www.instagram.com\/alidropshipcom\/",
+      "twitter_link":"https:\/\/twitter.com\/AliDropship",
+      "pinterest_link":"https:\/\/www.pinterest.ru\/alidropship\/",
+      "youtube_link":"https:\/\/www.youtube.com\/channel\/UCO8h6PHW7OC6zP6pHi1NvKQ",
+      "icon_color":"#999999",
+      "icon_color_hover":"#ffffff",
+      "icon_color_background":"#ffffff",
+      "icon_color_background_hover":"#666666",
+      "icon_font_size":"20",
+      "padding":"3",
+      "border_radius":"2"
+    },
+    "_multiwidget":1
+  },
+  "adswth_payment_methods_widget":{
+    "2":{
+      "title":"MÉTODOS DE PAGO:",
+      "icons":[
+        "mastercard",
+        "visa",
+        "paypal",
+        "american_express",
+        "maestro",
+        "discover"
+      ]
+    },
+    "_multiwidget":1
+  },
+  "adswth_security_methods_widget":{
+    "2":{
+      "title":"COMPRA CON CONFIANZA:",
+      "icons":[
+        "norton",
+        "namecheap",
+        "ssl"
+      ]
+    },
+    "_multiwidget":1
+  },
+  "woocommerce_product_categories":{
+    "2":{
+      "title":"Categorías de producto",
+      "orderby":"name",
+      "dropdown":0,
+      "count":1,
+      "hierarchical":1,
+      "show_children_only":0,
+      "hide_empty":0,
+      "max_depth":""
+    },
+    "_multiwidget":1
+  },
+  "woocommerce_price_filter":{
+    "2":{
+      "title":"Price filter"
+    },
+    "_multiwidget":1
+  },
+  "woocommerce_rating_filter":{
+    "2":{
+      "title":"Average rating"
+    },
+    "_multiwidget":1
+  },
+  "woocommerce_product_search":{
+    "2":{
+      "title":""
+    },
+    "_multiwidget":1
+  }
+}

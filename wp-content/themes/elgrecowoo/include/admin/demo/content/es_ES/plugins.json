@@ -1,0 +1,72 @@
+{
+  "woocommerce" : {
+    "name"     : "WooCommerce",
+    "required" : "true",
+    "checked"  : "true"
+  },
+  "classic-editor" : {
+    "name"     : "Classic Editor",
+    "required" : "true",
+    "checked"  : "true"
+  },
+  "yith-woocommerce-wishlist" : {
+    "name"     : "YITH WooCommerce Wishlist",
+    "required" : "false",
+    "checked"  : "true"
+  },
+  "contact-form-7" : {
+    "name"     : "Contact Form 7",
+    "required" : "true",
+    "checked"  : "true"
+  },
+  "alids-social-tools" : {
+    "name"     : "ADS Social Tools",
+    "required" : "true",
+    "checked"  : "true"
+  },
+  "alids-woo-product-video" : {
+    "name"     : "AliDropship Woo Product Video",
+    "required" : "true",
+    "checked"  : "true"
+  },
+  "metric-converter" : {
+    "name"     : "Metric Converter",
+    "required" : "false",
+    "checked"  : "true"
+  },
+  "nextend-facebook-connect" : {
+    "name"     : "Nextend Social Login",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "google-site-kit" : {
+    "name"     : "Site Kit by Google",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "regenerate-thumbnails" : {
+    "name"     : "Regenerate Thumbnails",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "wordpress-seo" : {
+    "name"     : "Yoast SEO",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "pepipost" : {
+    "name"     : "Pepipost",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "easy-wp-smtp" : {
+    "name"     : "Easy WP SMTP",
+    "required" : "false",
+    "checked"  : "false"
+  },
+  "tinymce-advanced" : {
+    "name"     : "TinyMCE Advanced",
+    "required" : "false",
+    "checked"  : "false"
+  }
+}

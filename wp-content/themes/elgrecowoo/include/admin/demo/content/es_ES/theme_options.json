@@ -1,0 +1,18 @@
+{
+  "0":false,
+  "nav_menu_locations":{
+    "top_menu":150
+  },
+  "custom_css_post_id":-1,
+  "product_gallery_woocommerce":false,
+  "product_image_thumbnails_columns":"5",
+  "product_image_style":"vertical",
+  "product_image_thumbnails_position":"left",
+  "product_page_reviews_terms_conditions_show":true,
+  "product_average_rating":4.5,
+  "menu_product_cat_show_count":true,
+  "use_minicart":true,
+  "use_shoppingcart":true,
+  "main_banner_autoplay":true,
+  "main_banner_autoplay_slide_delay":10
+}

@@ -1,0 +1,1 @@
+<?php adswth_main_slider( adswth_option( 'main_banner' ), adswth_option( 'main_banner_autoplay' ), adswth_option( 'main_banner_autoplay_slide_delay' ) ); ?>

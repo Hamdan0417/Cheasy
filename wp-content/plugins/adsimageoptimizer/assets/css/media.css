@@ -1,0 +1,23 @@
+
+.io-column-button.io-disable a {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.io-column-button span.io-loading {
+	display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+span.io-loading > img {
+	display: none;
+	width: 100%;
+    height: 100%;
+}
+
+.io-column-button.io-disable span.io-loading > img {
+	display: block;
+}

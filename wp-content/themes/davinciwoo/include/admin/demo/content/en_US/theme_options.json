@@ -1,0 +1,23 @@
+{
+  "0":false,
+  "nav_menu_locations":{
+    "top_menu":150,
+    "slider_menu":160,
+    "mobile_menu":170
+  },
+  "custom_css_post_id":-1,
+  "product_gallery_woocommerce":false,
+  "product_image_thumbnails_columns":"5",
+  "product_image_style":"vertical",
+  "product_image_thumbnails_position":"left",
+  "product_page_reviews_terms_conditions_show":true,
+  "product_average_rating":4.5,
+  "menu_product_cat_show_count":true,
+  "use_minicart":true,
+  "use_shoppingcart":true,
+  "show_side_shoppingcart":true,
+  "slider_layout":"1",
+  "slider_menu_show":true,
+  "main_banner_autoplay":true,
+  "main_banner_autoplay_slide_delay":10
+}

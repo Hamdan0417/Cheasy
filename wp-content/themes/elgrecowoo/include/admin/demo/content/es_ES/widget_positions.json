@@ -1,0 +1,16 @@
+{
+  "sidebar-footer-1":[
+    "custom_html-2",
+    "nav_menu-2",
+    "nav_menu-3",
+    "nav_menu-4",
+    "adswst_social_icons_widget-2"
+  ],
+  "woocommece-shop-sidebar":[
+    "woocommerce_product_categories-2",
+    "woocommerce_price_filter-2",
+    "woocommerce_rating_filter-2",
+    "woocommerce_product_search-2"
+  ],
+  "array_version":3
+}
