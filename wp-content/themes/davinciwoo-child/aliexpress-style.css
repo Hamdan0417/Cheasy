@@ -1,0 +1,121 @@
+/*
+Theme Name: DaVinciWoo Child - AliExpress Style
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap');
+
+:root {
+  --ali-red: #E52F20;
+  --ali-orange: #F79917;
+  --ali-bg: #f5f5f5; /* Light gray background like AliExpress */
+  --ali-text: #222222;
+  --ali-muted: #6B7280;
+  --ali-radius: 8px;
+  --ali-border-color: #e0e0e0;
+}
+
+body {
+  background: var(--ali-bg);
+  color: var(--ali-text);
+  font-family: "TT Norms Pro", Avenir, Inter, Arial, "Noto Sans Arabic", "Cairo", sans-serif;
+}
+
+.btn-primary,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+  background: var(--ali-red) !important;
+  color: #fff !important;
+  border-radius: var(--ali-radius) !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.btn-primary:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    background-color: #c4271b !important;
+}
+
+
+.badge-accent {
+  background: var(--ali-orange);
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.price,
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: var(--ali-red) !important;
+  font-weight: 700 !important;
+}
+
+/* Product Card Styling */
+.woocommerce ul.products li.product,
+.woocommerce .products .product {
+    background-color: #fff;
+    border: 1px solid var(--ali-border-color);
+    border-radius: var(--ali-radius);
+    transition: box-shadow 0.3s ease;
+}
+
+.woocommerce ul.products li.product:hover,
+.woocommerce .products .product:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.woocommerce ul.products li.product a img {
+    border-radius: var(--ali-radius) var(--ali-radius) 0 0;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    font-size: 14px;
+    color: var(--ali-text);
+    padding: 0 10px;
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 10px;
+}
+
+/* Single Product Page */
+.single-product div.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: var(--ali-radius);
+    border: 1px solid var(--ali-border-color);
+}
+
+/* Cart and Checkout Pages */
+.woocommerce-cart table.cart,
+.woocommerce-checkout #payment,
+.woocommerce-cart .cart-collaterals .cart_totals,
+.woocommerce-checkout .col-2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: var(--ali-radius);
+    border: 1px solid var(--ali-border-color);
+}
+
+/* Mega Menu Styles */
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    color: var(--ali-text) !important;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link,
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover {
+    color: var(--ali-red) !important;
+}
+
+.mega-menu-wrap .mega-sub-menu {
+    border-radius: 0 0 var(--ali-radius) var(--ali-radius);
+    border: 1px solid var(--ali-border-color);
+}
