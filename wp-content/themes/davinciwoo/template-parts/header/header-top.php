@@ -1,4 +1,4 @@
-<div id="top-bar" class="header-top <?php //header_inner_class('top'); ?>">
+<div id="top-bar" class="header-top ali-header-top <?php //header_inner_class('top'); ?>">
 	<div class="container">
         <div class="fw-block" data-sizes='["xs", "sm", "md", "lg"]'>
             <div class="fw-back">
