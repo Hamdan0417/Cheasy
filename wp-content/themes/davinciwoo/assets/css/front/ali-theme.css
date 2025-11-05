@@ -1,0 +1,566 @@
+:root {
+    --ali-red: #E52F20;
+    --ali-red-dark: #C52318;
+    --ali-orange: #F79917;
+    --ali-bg: #FFFFFF;
+    --ali-surface: #FFFFFF;
+    --ali-surface-muted: #FFF4F2;
+    --ali-text: #222222;
+    --ali-muted: #6B7280;
+    --ali-border: rgba(0, 0, 0, 0.08);
+    --ali-radius: 8px;
+    --ali-shadow-soft: 0 18px 40px -25px rgba(229, 47, 32, 0.35);
+    --ali-shadow-card: 0 18px 40px -30px rgba(0, 0, 0, 0.25);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "TT Norms Pro", "Avenir Next", "Avenir", "Inter", "Cairo", "Noto Sans Arabic", Arial, sans-serif;
+    color: var(--ali-text);
+}
+
+body {
+    background: #F5F6FA;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--ali-red);
+    transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+a:hover,
+a:focus {
+    color: var(--ali-red-dark);
+    text-decoration: none;
+}
+
+.btn,
+.button,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit {
+    border-radius: var(--ali-radius);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.btn-primary,
+.button,
+.button.alt,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce #respond input#submit {
+    background: linear-gradient(135deg, var(--ali-red), var(--ali-red-dark));
+    border-color: transparent;
+    color: #FFFFFF;
+    box-shadow: 0 12px 24px -16px rgba(229, 47, 32, 0.65);
+}
+
+.btn-primary:hover,
+.button:hover,
+.button.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover {
+    background: linear-gradient(135deg, var(--ali-red-dark), #A91910);
+    color: #FFFFFF;
+}
+
+.btn-secondary,
+.button.btn-secondary,
+.woocommerce a.button.secondary,
+.woocommerce button.button.secondary {
+    background: var(--ali-orange);
+    border-color: var(--ali-orange);
+    color: #FFFFFF;
+}
+
+.badge,
+.badge-accent,
+.woocommerce span.onsale {
+    background: var(--ali-orange);
+    color: #FFFFFF;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.header,
+.ali-header-top,
+.ali-header-main,
+.ali-navigation-bar {
+    background: var(--ali-surface);
+}
+
+#header {
+    box-shadow: 0 12px 30px -25px rgba(15, 23, 42, 0.65);
+}
+
+.ali-header-top {
+    border-bottom: 1px solid rgba(229, 47, 32, 0.1);
+    padding: 0.35rem 0;
+}
+
+.ali-header-top .topmenu > li > a,
+.ali-header-top .topmenu > li > a:visited {
+    color: var(--ali-muted);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.ali-header-top .topmenu > li > a:hover {
+    color: var(--ali-red);
+}
+
+.ali-header-main {
+    padding: 1rem 0;
+}
+
+.ali-header-main__inner {
+    gap: 1rem;
+}
+
+.ali-header-main__logo img {
+    max-height: 58px;
+}
+
+.mobile-menu-switch span {
+    background: var(--ali-text);
+}
+
+.ali-header-main__search .search-container {
+    background: #FFFFFF;
+    border: 2px solid rgba(229, 47, 32, 0.2);
+    border-radius: var(--ali-radius);
+    box-shadow: inset 0 0 0 1px rgba(229, 47, 32, 0.05);
+    padding: 0.25rem;
+}
+
+.ali-header-main__search .search-input-container {
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+}
+
+.ali-header-main__search .search-field {
+    border: none;
+    font-size: 1rem;
+    color: var(--ali-text);
+}
+
+.ali-header-main__search .search-field:focus {
+    outline: none;
+}
+
+.ali-header-main__search .scopes .scope,
+.ali-header-main__search .scopes .scope2 {
+    color: #FFFFFF;
+    background: var(--ali-red);
+    border-radius: 0 var(--ali-radius) var(--ali-radius) 0;
+}
+
+.ali-header-main__search .scopes .scope i,
+.ali-header-main__search .scopes .scope2 i {
+    color: #FFFFFF;
+}
+
+.ali-header-main__search .clear-search {
+    color: var(--ali-muted);
+}
+
+.ali-header-main__support .btn,
+.ali-header-main__support a {
+    color: var(--ali-muted);
+    font-weight: 600;
+}
+
+.ali-header-main__support a:hover {
+    color: var(--ali-red);
+}
+
+.ali-header-main__cart .btn-cart {
+    background: var(--ali-red);
+    border-radius: var(--ali-radius);
+    color: #FFFFFF;
+    padding: 0.75rem 1.1rem;
+    min-width: 158px;
+}
+
+.ali-header-main__cart .btn-cart .icon-basket {
+    font-size: 1.25rem;
+}
+
+.ali-header-main__cart .btn-cart .cart-count {
+    font-weight: 700;
+}
+
+.ali-navigation-bar {
+    border-top: 1px solid rgba(229, 47, 32, 0.08);
+    border-bottom: 1px solid rgba(229, 47, 32, 0.08);
+    box-shadow: 0 20px 45px -35px rgba(229, 47, 32, 0.5);
+    padding: 0.75rem 0;
+}
+
+.ali-navigation-bar__inner {
+    display: flex;
+    align-items: stretch;
+    gap: 1.5rem;
+}
+
+.ali-mega-menu {
+    position: relative;
+    width: 280px;
+}
+
+.ali-mega-menu__toggle {
+    align-items: center;
+    background: var(--ali-red);
+    border: none;
+    border-radius: var(--ali-radius);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    gap: 0.75rem;
+    justify-content: center;
+    padding: 0.85rem 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 0.05em;
+    box-shadow: 0 16px 35px -24px rgba(229, 47, 32, 0.75);
+}
+
+.ali-mega-menu__toggle:focus-visible {
+    outline: 3px solid rgba(247, 153, 23, 0.55);
+    outline-offset: 2px;
+}
+
+.ali-mega-menu__toggle-icon {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    position: relative;
+}
+
+.ali-mega-menu__toggle-icon::before,
+.ali-mega-menu__toggle-icon::after,
+.ali-mega-menu__toggle-icon span {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 999px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.ali-mega-menu__toggle-icon::before {
+    top: 0;
+}
+
+.ali-mega-menu__toggle-icon::after {
+    bottom: 0;
+}
+
+.ali-mega-menu__toggle-icon span {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ali-mega-menu__dropdown {
+    margin-top: 0.75rem;
+    position: relative;
+    z-index: 4;
+}
+
+.ali-mega-menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: var(--ali-radius);
+    border: 1px solid rgba(229, 47, 32, 0.08);
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+
+.ali-mega-menu__item {
+    position: relative;
+}
+
+.ali-mega-menu__category-link {
+    align-items: center;
+    color: var(--ali-text);
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 0.85rem 1rem;
+    width: 100%;
+}
+
+.ali-mega-menu__category-link:hover,
+.ali-mega-menu__item.is-hover > .ali-mega-menu__category-link {
+    background: var(--ali-surface-muted);
+    color: var(--ali-red);
+}
+
+.ali-mega-menu__chevron {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+    margin-left: 0.65rem;
+}
+
+.ali-mega-menu__panel {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 520px;
+    min-height: 100%;
+    background: #FFFFFF;
+    border-radius: 0 var(--ali-radius) var(--ali-radius) 0;
+    border: 1px solid rgba(229, 47, 32, 0.12);
+    box-shadow: var(--ali-shadow-soft);
+    padding: 1.5rem;
+    display: none;
+    z-index: 5;
+}
+
+.ali-mega-menu__panel-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.25rem;
+}
+
+.ali-mega-menu__column-title {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+    color: var(--ali-text);
+}
+
+.ali-mega-menu__column-title:hover {
+    color: var(--ali-red);
+}
+
+.ali-mega-menu__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ali-mega-menu__links li + li {
+    margin-top: 0.35rem;
+}
+
+.ali-mega-menu__links a {
+    color: var(--ali-muted);
+    font-size: 0.925rem;
+}
+
+.ali-mega-menu__links a:hover {
+    color: var(--ali-red);
+}
+
+.ali-mega-menu__item.is-hover > .ali-mega-menu__panel,
+.ali-mega-menu__item.is-open > .ali-mega-menu__panel {
+    display: block;
+}
+
+.ali-top-links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ali-top-links__list {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.ali-top-links__list > li > a {
+    color: var(--ali-text);
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid transparent;
+}
+
+.ali-top-links__list > li > a:hover,
+.ali-top-links__list > li.current-menu-item > a {
+    color: var(--ali-red);
+    border-color: var(--ali-red);
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    background: #FFFFFF;
+    border: 1px solid rgba(229, 47, 32, 0.08);
+    border-radius: var(--ali-radius);
+    padding: 1.15rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.woocommerce ul.products li.product:hover,
+.woocommerce-page ul.products li.product:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 50px -35px rgba(229, 47, 32, 0.65);
+    border-color: rgba(229, 47, 32, 0.25);
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+    color: var(--ali-red);
+    font-weight: 700;
+}
+
+.woocommerce ul.products li.product .button,
+.woocommerce ul.products li.product .added_to_cart {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.woocommerce-message,
+.woocommerce-info {
+    border-top-color: var(--ali-red);
+    background: rgba(229, 47, 32, 0.08);
+    color: var(--ali-text);
+}
+
+.woocommerce-error {
+    border-top-color: var(--ali-red);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    color: var(--ali-red);
+}
+
+.woocommerce div.product .summary {
+    background: #FFFFFF;
+    border-radius: var(--ali-radius);
+    padding: 1.5rem;
+    box-shadow: 0 30px 65px -50px rgba(0, 0, 0, 0.45);
+}
+
+.woocommerce-cart table.shop_table,
+.woocommerce-checkout table.shop_table {
+    border-radius: var(--ali-radius);
+    border: 1px solid rgba(229, 47, 32, 0.12);
+    overflow: hidden;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table td {
+    border-color: rgba(229, 47, 32, 0.12);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    border-radius: var(--ali-radius);
+    border: 1px solid rgba(229, 47, 32, 0.25);
+    padding: 0.65rem 0.85rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--ali-orange);
+    box-shadow: 0 0 0 3px rgba(247, 153, 23, 0.25);
+    outline: none;
+}
+
+.site-footer,
+footer {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.site-footer a,
+footer a {
+    color: #FFFFFF;
+}
+
+.site-footer a:hover,
+footer a:hover {
+    color: var(--ali-orange);
+}
+
+@media (max-width: 1199px) {
+    .ali-navigation-bar__inner {
+        flex-direction: column;
+    }
+
+    .ali-mega-menu {
+        width: 100%;
+    }
+
+    .ali-mega-menu__dropdown {
+        display: none;
+    }
+
+    .ali-mega-menu.is-active .ali-mega-menu__dropdown {
+        display: block;
+    }
+
+    .ali-mega-menu__panel {
+        position: static;
+        width: 100%;
+        border-radius: var(--ali-radius);
+        margin-top: 0.5rem;
+        box-shadow: none;
+    }
+
+    .ali-mega-menu__item + .ali-mega-menu__item {
+        border-top: 1px solid rgba(229, 47, 32, 0.08);
+    }
+
+    .ali-top-links__list {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+
+    .ali-top-links__list > li > a {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ali-navigation-bar {
+        padding: 1rem 0 1.5rem;
+    }
+
+    .ali-mega-menu__dropdown {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .ali-header-main__cart .btn-cart {
+        min-width: auto;
+        padding: 0.65rem 0.85rem;
+    }
+}
+

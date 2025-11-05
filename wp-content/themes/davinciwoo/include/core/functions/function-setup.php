@@ -141,9 +141,15 @@ function adswth_scripts() {
         wp_enqueue_script( 'davinciwoo-theme-zoom', ADSW_THEME_URL .'/assets/js/front/jquery.zoom.min.js', [ 'jquery' ], '1.7.21', true );
 
 	}
-	wp_enqueue_style( 'davinciwoo-css-font', 'https://fonts.googleapis.com/css?family=Open+Sans:400,700', [], ADSW_THEME_VERSION, 'all' );
-	wp_enqueue_style( 'davinciwoo-css-main', ADSW_THEME_URL .'/assets/css/davinciwoo' . ADSW_THEME_MIN . '.css', ['davinciwoo-css-icons','davinciwoo-css-bootstrap', 'davinciwoo-css-bootstrap-select', 'davinciwoo-css-lity', 'davinciwoo-css-flickity'], ADSW_THEME_VERSION, 'all' );
-	wp_enqueue_style( 'davinciwoo-css-color-scheme', ADSW_THEME_URL .'/assets/css/front/color-scheme/default' . ADSW_THEME_MIN . '.css', [ 'davinciwoo-css-main' ], ADSW_THEME_VERSION, 'all' );
+        wp_enqueue_style(
+                'davinciwoo-css-font',
+                'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700&display=swap',
+                [],
+                ADSW_THEME_VERSION,
+                'all'
+        );
+        wp_enqueue_style( 'davinciwoo-css-main', ADSW_THEME_URL .'/assets/css/davinciwoo' . ADSW_THEME_MIN . '.css', ['davinciwoo-css-icons','davinciwoo-css-bootstrap', 'davinciwoo-css-bootstrap-select', 'davinciwoo-css-lity', 'davinciwoo-css-flickity'], ADSW_THEME_VERSION, 'all' );
+        wp_enqueue_style( 'davinciwoo-css-color-scheme', ADSW_THEME_URL .'/assets/css/front/color-scheme/default' . ADSW_THEME_MIN . '.css', [ 'davinciwoo-css-main' ], ADSW_THEME_VERSION, 'all' );
 
 	if( is_singular() ) {
 		wp_enqueue_style( 'adswth-css-social-icons', ADSW_THEME_URL . '/assets/icons/css/social-icons' . ADSW_THEME_MIN . '.css', [], ADSW_THEME_VERSION, 'all' );
@@ -155,7 +161,8 @@ function adswth_scripts() {
 	wp_enqueue_style( 'davinciwoo-css-sm', ADSW_THEME_URL .'/assets/css/davinciwoo-sm' . ADSW_THEME_MIN . '.css', [ 'davinciwoo-css-main', 'davinciwoo-css-shop' ], ADSW_THEME_VERSION, '(min-width: 576px) and (max-width: 767px)' );
 	wp_enqueue_style( 'davinciwoo-css-xs', ADSW_THEME_URL .'/assets/css/davinciwoo-xs' . ADSW_THEME_MIN . '.css', [ 'davinciwoo-css-main', 'davinciwoo-css-shop' ], ADSW_THEME_VERSION, '(max-width: 575px)' );
 
-	wp_enqueue_style( 'davinciwoo-style', get_stylesheet_uri(), [], ADSW_THEME_VERSION, 'all');
+        wp_enqueue_style( 'davinciwoo-style', get_stylesheet_uri(), [], ADSW_THEME_VERSION, 'all');
+        wp_enqueue_style( 'davinciwoo-css-ali-theme', ADSW_THEME_URL . '/assets/css/front/ali-theme.css', [ 'davinciwoo-style' ], ADSW_THEME_VERSION, 'all' );
 
 	/*
 	 * Enqueue scripts
@@ -173,13 +180,14 @@ function adswth_scripts() {
 	wp_enqueue_script( 'davinciwoo-js-search-product', ADSW_THEME_URL .'/assets/js/front/search-product' . ADSW_THEME_MIN . '.js', [ 'jquery', 'davinciwoo-js-handlebars','davinciwoo-js' ], ADSW_THEME_VERSION, true );
 	wp_enqueue_script( 'davinciwoo-js-mobile-menu', ADSW_THEME_URL . '/assets/js/front/mobile-menu' . ADSW_THEME_MIN . '.js', [ 'davinciwoo-js' ], ADSW_THEME_VERSION, true );
 
-	wp_enqueue_script( 'davinciwoo-js', ADSW_THEME_URL .'/assets/js/davinciwoo' . ADSW_THEME_MIN . '.js', [
-		'jquery',
-		'davinciwoo-js-bootstrap',
-		'davinciwoo-js-lity',
-		'ttlazy-js',
-		'davinciwoo-js-countdown'
-	], ADSW_THEME_VERSION, true );
+        wp_enqueue_script( 'davinciwoo-js', ADSW_THEME_URL .'/assets/js/davinciwoo' . ADSW_THEME_MIN . '.js', [
+                'jquery',
+                'davinciwoo-js-bootstrap',
+                'davinciwoo-js-lity',
+                'ttlazy-js',
+                'davinciwoo-js-countdown'
+        ], ADSW_THEME_VERSION, true );
+        wp_enqueue_script( 'davinciwoo-ali-mega-menu', ADSW_THEME_URL . '/assets/js/front/ali-mega-menu.js', [], ADSW_THEME_VERSION, true );
 
 
 	// Add variables to scripts
